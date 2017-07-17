@@ -1,0 +1,14 @@
+{
+  "name": "usamplapi",
+  "version": "1.0.0",
+  "description": "API for Usampl web app",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@Malivuk",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^4.0.1"
+  }
+}

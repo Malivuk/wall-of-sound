@@ -1,0 +1,30 @@
+{
+  "name": "wos",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "dependencies": {
+    "ajax": "^0.0.4",
+    "chai": "^4.0.0",
+    "copy-to-clipboard": "^3.0.6",
+    "enzyme": "^2.8.2",
+    "jquery": "^3.2.1",
+    "prop-types": "^15.5.10",
+    "react": "^15.5.4",
+    "react-addons-test-utils": "^15.5.1",
+    "react-dom": "^15.5.4",
+    "react-ga": "^2.2.0",
+    "react-rangeslider": "^2.0.1",
+    "react-sound": "^0.6.1",
+    "react-test-renderer": "^15.5.4",
+    "sinon": "^2.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

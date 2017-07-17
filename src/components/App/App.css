@@ -1,0 +1,13 @@
+.samples {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding-bottom: 77px;
+  padding-top: 64px;
+}
+
+@media (max-width: 1000px) {
+  .samples {
+    padding: 66px 8px 77px 8px;
+  }
+}

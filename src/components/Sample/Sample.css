@@ -1,0 +1,82 @@
+.sample {
+  overflow: auto;
+  width: 100%;
+  margin-bottom: 8px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.sample p {
+  margin: 0;
+}
+
+.copy, .play, .title, .length {
+  display: block;
+  float: left;
+}
+
+.title, .length {
+  line-height: 28px;
+}
+
+.play, .title {
+  padding: 1em 0;
+}
+
+.copy {
+  padding: 1em 0 1em 1em;
+}
+
+.title {
+  width: 80%;
+  padding: 1em .5em;
+}
+
+.length {
+  width: 8%;
+  text-align: right;
+  padding: 1em 1em 1em 0;
+}
+
+.action {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: #fff;
+  height: 60px;
+  width: 6%;
+  cursor: pointer;
+}
+.action:after {
+  background: rgba(211, 211, 211, .5);
+  border-radius: 50%;
+}
+
+@media (max-width: 1000px) {
+  .play, .copy {
+    width: 10%;
+  }
+  .title {
+    width: 60%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .length {
+    width: 20%;
+  }
+}
+@media (max-width: 640px) {
+  .play, .copy {
+    width: 16%;
+  }
+  .title {
+    width: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .length {
+    width: 18%;
+  }
+}
